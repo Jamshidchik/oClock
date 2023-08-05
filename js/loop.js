@@ -79,6 +79,6 @@ function watch() {
     }
     setTimeout(() => {
         watch()
-    }, 100);
+    }, 1000);
 }
 watch()
